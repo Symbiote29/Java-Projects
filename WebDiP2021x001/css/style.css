@@ -1,0 +1,1477 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(64, 32, 138);
+    height: 70px;
+    width: 2543px;
+    position: absolute;
+    margin-top: -40px;
+}
+.pivniceH{
+    background-color: rgb(64, 32, 138);
+    height: 70px;
+    width: 2543px;
+    position: absolute;
+    margin-top: -100px;
+}
+.zemljeH{
+    background-color: rgb(64, 32, 138);
+    height: 70px;
+    width: 2543px;
+    position: absolute;
+    margin-top: -100px;
+}
+.statistikaRadaSustavaH{
+    background-color: rgb(64, 32, 138);
+    height: 70px;
+    width: 2543px;
+    position: absolute;
+    margin-top: -100px;
+}
+.statistikaMH{
+    background-color: rgb(64, 32, 138);
+    height: 70px;
+    width: 2543px;
+    position: absolute;
+    margin-top: -100px;
+}
+.statistikaR{
+    background-color: rgb(64, 32, 138);
+    height: 70px;
+    width: 2543px;
+    position: absolute;
+    margin-top: -100px;
+}
+.popispivaH{
+    background-color: rgb(64, 32, 138);
+    height: 70px;
+    width: 2543px;
+    position: absolute;
+    margin-top: -100px;
+}
+.dnevnikRada{
+    background-color: rgb(64, 32, 138);
+    height: 70px;
+    width: 2543px;
+    position: absolute;
+    margin-top: -100px;
+}
+.piveH{
+    background-color: rgb(64, 32, 138);
+    height: 70px;
+    width: 2543px;
+    position: absolute;
+    margin-top: -100px;
+}
+.blokiranjekorisnikaH{
+    background-color: rgb(64, 32, 138);
+    height: 70px;
+    width: 2543px;
+    position: absolute;
+    margin-top: -100px;
+}
+.sveNarudzbeKorisnikaH{
+    background-color: rgb(64, 32, 138);
+    height: 70px;
+    width: 2543px;
+    position: absolute;
+    margin-top: -100px;
+}
+h1{
+    padding-top: 8px;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+body{
+    background: url(../materijali/proba6.jpeg);
+    background-size: cover;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.container{
+    position: relative;
+    left: 1150px;
+    top: 100px;
+}
+.sadrzaj{
+    color: white;
+    font-size: 20px;
+}
+.img-logo{
+    height: 50px;
+    width: 70px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+#proba1{
+    display: none;
+}
+#proba1:target{
+    display: block;
+    font-size: 25px;
+    color: white;
+}
+li a{
+    color: white;
+}
+.img-izbornik{
+    height: 50px;
+    width: 55px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.izbornik{
+    text-decoration: none;
+    position: absolute;
+    right: 15px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.prviblok{
+    background: url(../materijali/Guiness.jpg);
+    margin: 100px auto;
+    background-size: cover;
+    border-radius: 30px;
+    width: 600px;
+    height: 300px;
+    margin-top: 70px;
+    position: relative;
+    top: 40px;
+    left: 15px;
+    animation: slide 15s infinite;
+}
+table{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.tablicaDrzava{
+    margin-left: 1200px;
+    margin-top: 100px;
+}
+
+.tablicaPiva{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.tablicaNarudzbiKorisnika{
+    margin-left: 600px;
+    margin-top: 100px;
+}
+.tablicaNeplacenihKorisnika{
+    margin-left: 650px;
+    margin-top: 100px;
+}
+#blokirajBtn{
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    position: relative;
+    left: 1500px;
+    top: 100px;
+}
+.blokiraniTekst{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    left: 850px;
+    top: 100px;
+}
+.tablicaKorisnika{
+    margin-left: 400px;
+    margin-top: 200px;
+}
+#blokiraniKorisnik{
+    position: relative;
+    left: 880px;
+    top: 100px;
+}
+.statistikaRadaSustava{
+    margin-left: 550px;
+    margin-top: 100px;
+}
+.statistikaNarudzbi{
+    margin-left: 750px;
+    margin-top: 100px;
+}
+.svaPiva{
+    margin-left: 50px;
+}
+.header{
+    position: relative;
+    top: 35px;
+}
+#unsortedList{
+    position: relative;
+    left: 100px;
+    width: 100px;
+    height: 70px;
+    top: 11px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#sortZemlje{
+    position: relative;
+    left: 100px;
+    width: 100px;
+    height: 70px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#sortCijena{
+    position: relative;
+    left: 100px;
+    width: 100px;
+    height: 70px;
+    top: 11px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.statistikaNarudzbi2{
+    margin-left: 1160px;
+    margin-top: 100px;
+}
+.statistikaNarudzbi3{
+    margin-left: 1080px;
+    margin-top: 100px;
+}
+.grupiraneZemljePodrijetla{
+    margin-left: 1180px;
+    margin-top: 100px;
+}
+.k{
+    position: relative;
+    left: 90px;
+    color: white;
+    font-size: 20px;
+}
+#kIme{
+    position: relative;
+    right: 110px;
+    top: 50px;
+}
+.popispiva{
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.popisKorisnika{
+    margin-left: 600px;
+    margin-top: 100px;
+}
+.dnevnik{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.row{
+    color: white;
+    font-size: 20px;
+}
+.ranglista{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.ranglista2{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.dateSearch{
+    position: relative;
+    left: 950px;
+    top: 50px;
+    font-size: 22px;
+    color: white;
+}
+.userSearch{
+    position: relative;
+    left: 950px;
+    top: 50px;
+    font-size: 22px;
+    color: white;
+}
+.actionSearch{
+    position: relative;
+    left: 950px;
+    top: 50px;
+    font-size: 22px;
+    color: white;
+}
+#searchDate{
+    position: relative;
+    width: 100px;
+    height: 70px;
+    font-size: 20px;
+}
+#searchUser{
+    position: relative;
+    width: 100px;
+    height: 70px;
+    font-size: 20px;
+}
+#searchAction{
+    position: relative;
+    width: 100px;
+    height: 70px;
+    font-size: 20px;
+}
+#fltr{
+    position: relative;
+    width: 100px;
+    height: 70px;
+    font-size: 20px;
+    left: 1200px;
+    top: 100px;
+}
+.zemlje{
+    background-color: rgb(64, 32, 138);
+    height: 70px;
+}
+.listapiva{
+    background-color: rgb(64, 32, 138);
+    height: 70px;
+}
+.popisPivaUpivnici{
+    background-color: rgb(64, 32, 138);
+    height: 70px;
+}
+
+.dd{
+    position: relative;
+    margin-left: 1500px;
+    height: 70px;
+    width: 70px;
+    font-size: 18px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.aa{
+    position: relative;
+    margin-left: 1000px;
+    height: 70px;
+    width: 70px;
+    font-size: 18px;
+    bottom: 90px;
+    margin-bottom: 20px;
+}
+.imeDrzave{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    right: 300px;
+    top: 90px;
+}
+
+.novaDrzava{
+    position: relative;
+    margin-left: 200px;
+}
+#novaDrzava{
+    position: relative;
+    top: 90px;
+    right: 300px;
+}
+.ponovoImeDrz{
+    font-size: 20px;
+    color: white;
+}
+.ponovoD{
+    position: relative;
+    margin-left: 600px;
+    bottom: 80px;
+}
+.azuriranaD{
+    margin-left: 450px;
+    position: relative;
+    bottom: 50px;
+}
+.azuriranoImeDrz{
+    font-size: 20px;
+    color: white;
+    margin-left: 290px;
+}
+
+.tablicaPivnica{
+    margin-left: 1050px;
+    margin-top: 100px;
+}
+
+
+.dp{
+    position: relative;
+    margin-left: 1500px;
+    height: 70px;
+    width: 70px;
+    font-size: 18px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.ap{
+    position: relative;
+    margin-left: 1000px;
+    height: 70px;
+    width: 70px;
+    font-size: 18px;
+    bottom: 90px;
+    margin-bottom: 20px;
+}
+.imePivnice{
+    font-size: 20px;
+    color: white;
+    margin-left: 200px;
+}
+
+.ponovoP{
+    position: relative;
+    margin-left: 600px;
+    bottom: 120px;
+}
+.azuriranoImeP{
+    margin-left: 450px;
+    position: relative;
+    bottom: 105px;
+}
+
+.ponovoImePivnice{
+    font-size: 20px;
+    color: white;
+}
+#azuriranaPivnica{
+    position: relative;
+    right: 465px;
+    top: 50px;
+}
+.azuriranoImePiv{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 50px;
+    right: 470px;
+}
+.novoImePivnice{
+    margin-left: 1075px;
+}
+#azuriranaAdresa{
+    position: relative;
+    right: 955px;
+    top: 100px;
+}
+.adresaPivnice{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: 360px;
+    top: 50px;
+}
+#adresaPivnice{
+    position: relative;
+    right: 360px;
+    top: 50px;
+}
+.adrPivnice{
+    margin-left: 1300px;
+    position: relative;
+    bottom: 5px;
+}
+.modPivnice{
+    color: white;
+    font-size: 20px;
+}
+.moderator{
+    margin-left: 1300px;
+    position: relative;
+    bottom: 5px;
+    margin-top: 30px;
+}
+.mod{
+    position: relative;
+    right: 100px;
+}
+.mod2{
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+}
+.modsID{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: 1300px;
+    top: 150px;
+}
+.modsID2{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: 700px;
+    top: 110px;
+}
+.mod_id{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+.mod_id2{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 700px;
+    right: 1150px;
+}
+#mods{
+    width: 40px;
+    position: relative;
+    right: 690px;
+    top: 110px;
+}
+#dodajPivnicu{
+    position: relative;
+    right: 50px;
+}
+#azurirajPivnicu{
+    position: relative;
+    bottom: 120px;
+    right: 130px;
+}
+#moderatori{
+    width: 40px;
+    position: relative;
+    top: 40px;
+    left: 300px;
+}
+#moderatori2{
+    width: 40px;
+    position: relative;
+    top: 650px;
+    right: 950px;
+}
+.azuriranaAdr{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: 960px;
+    top: 100px;
+}
+.azuriraniModsID{
+    color: white;
+    font-size: 20px;
+}
+#azuriraniMods{
+    width: 40px;
+    position: relative;
+    right: 1280px;
+    top: 150px;
+}
+.azurA{
+    margin-left: 640px;
+    position: relative;
+    bottom: 75px;
+}
+.azurMods{
+    margin-left: 700px;
+    position: relative;
+    bottom: 65px;
+    margin-top: 30px;
+}
+.azuriranoImeP{
+    position: relative;
+    right: 82px;
+}
+.brDrz{
+    margin-top: 100px;
+    margin-left: 950px;
+    position: relative;
+    top: 30px;
+}
+.brisiDrz{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 100px;
+}
+#brisiDrzavu{
+    position: relative;
+    bottom: 100px;
+}
+#obrisiDrz{
+    height: 70px;
+    width: 70px;
+    margin-left: 1200px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#obrisiPivnicu{
+    height: 70px;
+    width: 70px;
+    margin-left: 1200px;
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+}
+.BrisiPiv{
+    font-size: 20px;
+    color: white;
+}
+
+#dodajPivu{
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    margin-left: 1100px;
+    position: relative;
+    top: 250px;
+    margin-bottom: 200px;
+}
+#dodajPivuUpopis{
+    width: 150px;
+    height: 70px;
+    font-size: 20px;
+    margin-left: 190px;
+    position: relative;
+    top: 50px;
+    margin-bottom: 200px;
+    border-radius: 20%;
+}
+#azurirajPivu{
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    margin-left: 1760px;
+    position: relative;
+    bottom: 260px;
+}
+#obrisiPivo{
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    margin-left: 1400px;
+    position: relative;
+    top: 10px;
+}
+#azurirajPopisPiva{
+    width: 150px;
+    height: 70px;
+    font-size: 20px;
+    margin-left: 180px;
+    position: relative;
+    top: 50px;
+    border-radius: 20%;
+}
+#obrisiPivuIzPopisa{
+    width: 150px;
+    height: 70px;
+    font-size: 20px;
+    position: relative;
+    left: 180px;
+    top: 50px;
+    border-radius: 20%;
+}
+
+.dodavanjePiveForma{
+    position: relative;
+    bottom: 200px;
+    left: 950px;
+    width: 500px;
+    height: 550px;
+    background-color: rgb(64, 32, 138);
+    border-radius: 20%;
+}
+.azuriranjePivaForma{
+    position: relative;
+    left: 1500px;
+    bottom: 750px;
+    width: 500px;
+    height: 1000px;
+    background-color: rgb(64, 32, 138);
+    border-radius: 20%;
+}
+.formaZaBrisanje{
+    position: relative;
+    bottom: 1150px;
+    left: 950px;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(64, 32, 138);
+    border-radius: 20%;
+}
+#brisiPivoIzPopisa{
+    position: relative;
+    right: 640px;
+    top: 130px;
+}
+#novaPiva{
+    position: relative;
+    left: 550px;
+}
+#novaPiva2{
+    position: relative;
+    left: 150px;
+    bottom: 15px;
+}
+.nP{
+    margin-left: 400px;
+    position: relative;
+    bottom: 150px;
+    margin-bottom: 200px;
+    right: 300px;
+}
+.imePive{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    left: 540px;
+}
+.imePive2{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+.ponPivo{
+    margin-left: 1200px;
+    position: relative;
+    bottom: 450px;
+}
+#azuriranoPonovoPivo{
+    position: relative;
+    top: 460px;
+    right: 950px;
+}
+.m1{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    right: 290px;
+    top: 400px;
+}
+#mod1{
+    position: relative;
+    top: 400px;
+    right: 270px;
+}
+.m2{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    top: 350px;
+    left: 120px;
+}
+#mod2{
+    position: relative;
+    top: 350px;
+    left: 140px;
+}
+.ponovoImePiva{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    bottom: 90px;
+}
+#ponovoPivo{
+    position: relative;
+    bottom: 90px;
+}
+.aPiva{
+    margin-left: 1358px;
+    position: relative;
+    bottom: 490px;
+}
+.azuriranoImePiva{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    right: 372px;
+    bottom: 30px;
+}
+#azuriranaPiva{
+    position: relative;
+    right: 362px;
+    bottom: 30px;
+}
+.azuriranacijenap{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    right: 780px;
+    top: 20px;
+}
+#azuriranaCijenaPive{
+    position: relative;
+    top: 20px;
+    right: 776px;
+}
+.azuriranoImePiva2{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    right: 1100px;
+    top: 530px;
+    display: inline-block;
+}
+#azuriranaPiva2{
+    position: relative;
+    right: 950px;
+    top: 470px;
+}
+.azuriranacijenap2{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    right: 1100px;
+    top: 550px;
+}
+#azuriranaCijenaPive2{
+    position: relative;
+    top: 500px;
+    right: 950px;
+}
+.azuriranaocjPive2{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 600px;
+    right: 1100px;
+}
+#azuriranaOcjenaPive2{
+    position: relative;
+    top: 550px;
+    right: 950px;
+}
+
+.azuriranirokPive{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    left: 41px;
+    top: 50px;
+}
+#azuriraniRokTrajanja{
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.azuriraniopisP{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    right: 350px;
+    top: 100px;
+}
+#azuriraniOpisPive{
+    position: relative;
+    top: 100px;
+    right: 340px;
+}
+.azuriranaslPive{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    right: 750px;
+    top: 150px;
+}
+#azuriranaSlikaPive{
+    position: relative;
+    right: 745px;
+    top: 150px;
+}
+.azuriranaocjPive{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    left: 125px;
+    top: 180px;
+}
+#azuriranaOcjenaPive{
+    position: relative;
+    left: 145px;
+    top: 180px;
+}
+.azuriranircptPive{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    right: 300px;
+    top: 240px;
+}
+#azuriraniReceptPive{
+    position: relative;
+    right: 295px;
+    top: 240px;
+}
+.azuriranircptPive2{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    right: 365px;
+    top: 240px;
+}
+#azuriraniReceptPive2{
+    position: relative;
+    right: 360px;
+    top: 240px;
+}
+.azuriranizpPive{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    right: 830px;
+    top: 300px;
+}
+#azuriranaZemljaPodrijetlaPive{
+    position: relative;
+    right: 810px;
+    top: 300px;
+}
+.azuriraniIdPiv{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 650px;
+    right: 1100px;
+}
+#azuriraniIdPivnice{
+    position: relative;
+    top: 600px;
+    right: 950px;
+}
+
+.bPiva{
+    margin-left: 900px;
+    position: relative;
+    bottom: 40px;
+}
+.bPivaIzPopisa{
+    margin-left: 870px;
+    position: relative;
+    bottom: 100px;
+}
+.brPizPop{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    right: 750px;
+    top: 200px;
+}
+.brPivo{
+    color:white;
+    font-size: 20px;
+}
+.cijenap{
+    position: relative;
+    top: 50px;
+    color: white;
+    font-size: 20px;
+    left: 200px;
+}
+.cijenap2{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    top: 30px;
+}
+#cijenaPive{
+    position: relative;
+    left: 215px;
+    top: 50px;
+}
+#cijenaPive2{
+    position: relative;
+    left: 150px;
+}
+.rokPive{
+    position: relative;
+    right: 170px;
+    top: 100px;
+    color: white;
+    font-size: 20px;
+}
+#rokTrajanja{
+    position: relative;
+    right: 165px;
+    top: 100px;
+}
+.opisP{
+    position: relative;
+    right: 500px;
+    top: 150px;
+    color: white;
+    font-size: 20px;
+}
+#opisPive{
+    position: relative;
+    right: 485px;
+    top: 150px;
+}
+.slPive{
+    position: relative;
+    right: 830px;
+    top: 200px;
+    color: white;
+    font-size: 20px;
+}
+#slikaPive{
+    position: relative;
+    top: 200px;
+    right: 810px;
+}
+.ocjPive{
+    position: relative;
+    right: 1160px;
+    top: 250px;
+    color: white;
+    font-size: 20px;
+}
+#ocjenaPive{
+    position: relative;
+    right: 1150px;
+    top: 250px;
+}
+.ocjPive2{
+    position: relative;
+    top: 40px;
+    color: white;
+    font-size: 20px;
+}
+#ocjenaPive2{
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+.idP{
+    color: white;
+    position: relative;
+    font-size: 20px;
+    top: 50px;
+}
+#idPivnice{
+    position: relative;
+    left: 150px;
+    top: 30px;
+}
+.idM{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: 1300px;
+    top: 205px;
+}
+#idModeratora{
+    position: relative;
+    top: 180px;
+    left: 90px;
+}
+
+.rcptPive{
+    position: relative;
+    left: 530px;
+    top: 280px;
+    color: white;
+    font-size: 20px;
+}
+#receptPive{
+    position: relative;
+    left: 540px;
+    top: 280px;
+}
+.zpPive{
+    position: relative;
+    left: 80px;
+    top: 330px;
+    color: white;
+    font-size: 20px;
+}
+#zemljaPodrijetlaPive{
+    position: relative;
+    left: 90px;
+    top: 330px;
+}
+.blokiranjeKorisnika{
+    position: relative;
+    margin-left: 950px;
+    margin-top: 100px;
+}
+.korime{
+    font-size: 20px;
+    color: white;
+}
+#block{
+    position: relative;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    left: 1350px;
+    top: 200px;
+}
+#unblock{
+    position: relative;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    left: 1000px;
+    top: 200px;
+}
+.unosAktivacijskogKoda{
+    margin-left: 1055px;
+    margin-top: 50px;
+}
+.code{
+    font-size: 22px;
+    color: white;
+    position: relative;
+    right: 330px;
+    top: 150px;
+}
+#kod{
+    position: relative;
+    right: 535px;
+    top: 200px;
+}
+#aktivirajEmail{
+    width: 100px;
+    height: 50px;
+    margin-left: 1220px;
+    position: relative;
+    top: 400px;
+    font-size: 20px;
+}
+
+@keyframes slide{
+    25%{
+        background: url(../materijali/Guiness.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 30px;
+        height: 300px;
+        width: 600px;
+    }
+    50%{
+        background: url(../materijali/ThroatTwister.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 30px;
+        height: 300px;
+        width: 600px;
+    }
+    75%{
+        background: url(../materijali/Ozujsko.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 30px;
+        height: 300px;
+        width: 600px;
+    }
+    100%{
+        background: url(../materijali/AmericanPaleAle.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 30px;
+        height: 300px;
+        width: 600px;
+    }
+}
+
+section{
+    padding: 20px;
+    width: 2000px;
+    margin: 40px auto;
+    margin-left: 400px;
+}
+
+section ul{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+section ul li{
+    list-style: none;
+    background: #eee;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+section ul li.active{
+    background: #03a9f4;
+    color: #fff;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+.proba{
+    display: flex;
+}
+.card{
+    display: block;
+}
+
+.pive{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    right: 150px;
+}
+
+.pive .itemBox{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+}
+.pive .itemBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cijena{
+    color: white;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    background-color: black;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.treciblok ul{
+    position: relative;
+    left: 1005px;
+    margin-top: 80px;
+    border: 2px solid black;
+    width: 540px;
+    height: 440px;
+    list-style: none;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+    background-color: rgb(39, 62, 165);
+    color: white;
+}
+.treciblok .zivotopis{
+    padding-top: 107px;
+}
+
+.lice{
+    height: 100px;
+    position: relative;
+    left: 1020px;
+    bottom: 325px;
+}
+
+footer{
+    display: flex;
+    position: absolute;
+    width: 99.2%;
+    padding: 10px;
+    background-color: rgb(64, 32, 138);
+    color: white;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+footer p {
+    font-size: 20px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+#gnrtBtn{
+    position: relative;
+    top: 100px;
+    left: 1230px;
+    width: 100px;
+    height: 70px;
+    font-size: 20px;
+}
+@media print{
+    .statistikaR{
+        display: none;
+    }
+    .statistikaMH{
+        display: none;
+    }
+    .as{
+        position: relative;
+        right: 1500px;
+    }
+    .statistikaNarudzbi{
+        margin-left: 0px;
+        top: 500px;
+    }
+    .statistikaNarudzbi2{
+        margin-left: 250px;
+        top: 500px;
+    }
+    .statistikaNarudzbi3{
+        margin-left: 170px;
+        top: 500px;
+    }
+    #gnrtBtn{
+        display: none;
+    }
+    .o1{
+        position: relative;
+        right: 730px;
+        top: 50px;
+    }
+    .grupiraneZemljePodrijetla{
+        position: relative;
+        right: 850px;
+    }
+    .img-logo{
+        position: relative;
+        bottom: 10px;
+        display: none;
+    }
+    .img-izbornik{
+        position: relative;
+        left: 900px;
+        bottom: 500px;
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 810px) and (max-height: 1170px){
+    .img-izbornik{
+        left: 1860px;
+        height: 80px;
+        width: 90px;
+        padding-top: 15px;
+    }
+    .img-logo{
+        right: 50px;
+        height: 80px;
+        width: 90px;
+        padding-top: 15px;
+    }
+    #proba1:target{
+        display: block;
+        font-size: 35px;
+        position: relative;
+        top: 50px;
+        left: 1110px;
+    }
+    header{
+        width: 2000px;
+        height: 120px;
+        padding-top: 25px;
+    }
+    footer{
+        width: 1935px;
+        top: 2750px;
+    }
+    .h1{
+        font-size: 50px;
+    }
+    .prviblok{
+        left: 600px;
+        top: 100px;
+    }
+
+    .treciblok ul{
+        left: 730px;
+        top: 700px;
+        height: 750px;
+        margin-top: 120px;
+        font-size: 30px;
+    }
+    .lice{
+        left: 740px;
+        top: 120px;
+    }
+}
+
+@media only screen and (max-width: 450px) and (max-height: 860px){
+    .prviblok{
+        position: relative;
+        left: 600px;
+        width: 550px;
+        height: 300px;
+    }
+    .img-izbornik{
+        left: 1600px;
+        padding-top:15px;
+    }
+    .img-logo{
+        padding-top: 15px;
+    }
+    #proba1:target{
+        display: block;
+        font-size: 45px;
+        position: relative;
+        left: 1300px;
+        bottom: 1500px;
+    }
+    header{
+        height: 100px;
+        width: 1750px;
+    }
+    footer{
+        width: 1720px;
+        top: 3550px;
+    }
+    h1{
+        font-size: 55px;
+    }
+    .o1{
+        font-size: 30px;
+        position: relative;
+        top: 10px;
+    }
+    .treciblok ul li{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .treciblok ul{
+        left: 520px;
+        top: 970px;
+        height: 950px;
+        width: 800px;
+        margin-top: 120px;
+    }
+    .treciblok ul p{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .lice{
+        left: 540px;
+        top: 270px;
+    }
+}

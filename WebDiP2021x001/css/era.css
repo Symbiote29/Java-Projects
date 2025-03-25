@@ -1,0 +1,97 @@
+header{
+    background-color: rgb(64, 32, 138);
+    height: 100px;
+    width: 2560px;
+    text-align: center;
+    position: absolute;
+    margin-top: -30px;
+    right: 0.5px;
+}
+h1{
+    padding-top: 5px;
+    color: white;
+    font-size: 45px;
+    bottom: 10px;
+    text-align: center;
+    position: relative;
+}
+body{
+    background: url(../materijali/proba6.jpeg);
+    background-size: cover;
+}
+.img-logo{
+    height: 50px;
+    width: 70px;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+
+#proba1{
+    display: none;
+}
+#proba1:target{
+    display: block;
+    font-size: 25px;
+    position: relative;
+    bottom: 50px;
+    color:white;
+}
+li a {
+    color:white;
+}
+
+.img-izbornik{
+    height: 50px;
+    width: 55px;
+    position: absolute;
+    top: 35px;
+    right: 25px;
+}
+
+.izbornik{
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.era1{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 150px;
+    margin-left: 1190px;
+}
+#era2{
+    display: none;
+    width: 1920px;
+    height: 1080px;
+}
+#era2:target{
+    display: block;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+footer{
+    display: flex;
+    position: absolute;
+    width: 99.5%;
+    margin-top: 100px;
+    right: 0px;
+    padding: 10px;
+    background-color: rgb(64, 32, 138);
+    color: white;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}

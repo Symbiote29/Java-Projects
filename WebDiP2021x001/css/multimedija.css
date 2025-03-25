@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(64, 32, 138);
+    height: 100px;
+    width: 2549px;
+    text-align: center;
+}
+h1{
+    padding-top: 5px;
+    color: white;
+    font-size: 45px;
+    top: 20px;
+    text-align: center;
+    position: relative;
+}
+body{
+    background: url(../materijali/proba6.jpeg);
+    background-size: cover;
+}
+.img-logo{
+    height: 50px;
+    width: 70px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+#proba1{
+    display: none;
+}
+#proba1:target{
+    display: block;
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+    color: white;
+}
+li a {
+    color:white;
+}
+
+.img-izbornik{
+    height: 50px;
+    width: 55px;
+    position: absolute;
+    top: 30px;
+    right: 25px;
+}
+
+.izbornik{
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 400px 1300px 600px 200px;
+    padding: 10px;
+  }
+  .grid-item {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  #luffy{
+      grid-column: 1 / span 3;
+      margin-top: 100px;
+      margin-right: 40px;
+      position: relative;
+      left: 10px;
+  }
+  #l1{
+      position: relative;
+  }
+  #ichigo{
+      grid-column: 1 / span 3;
+      margin-top: 170px;
+      position: relative;
+  }
+  .ichigo1{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    width: 800px;
+    height: 400px;
+  }
+  #i1{
+      position: relative;
+      right: 15px;
+  }
+  .naslovi{
+      color: white;
+      position: relative;
+      margin-bottom: 50px;
+  }
+  #future{
+      position: relative;
+      left: 5px;
+  }
+  .future{
+      color: white;
+      position: relative;
+      top: 50px;
+  }
+  #scifi{
+    position: relative;
+    left:15px;
+}
+  .scifi{
+      color: white;
+      position: relative;
+      top: 50px;
+  }
+  #square{
+      position: relative;
+      left: 20px;
+  }
+  .square{
+      color: white;
+      position: relative;
+      top: 50px;
+  }
+  #audio1{
+    position: relative;
+    top: 150px;
+  }
+  #audio2{
+    position: relative;
+    top: 150px;
+  }
+  #audio3{
+    position: relative;
+    top: 150px;
+  }
+  #audio4{
+    position: relative;
+    top: 150px;
+    margin-bottom: 100px;
+  }
+
+  .formaZaPretrazivanje{
+    position: relative;
+    top: 100px;
+    left: 1025px;
+    border: 2px solid black;
+    border-radius: 35px;
+    background-color: rgb(64, 32, 138);
+    color: white;
+    width: 450px;
+    height: 190px;
+    padding-left: 60px;
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+.prtg{
+    margin-top: 5px;
+    padding: 15px;
+    width: 70%;
+    margin-left: 50px;
+    border-radius: 35px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(105, 18, 105);
+}
+.pretrazivanje{
+    position: relative;
+    margin-left: 85px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+#pretraga{
+    width: 55%;
+}
+.pretraga{
+    font-size: 25px;
+    position: relative;
+    right: 30px;
+}
+footer{
+    display: flex;
+    position: relative;
+    width: 2552;
+    bottom: 0;
+    padding: 10px;
+    top: 63px;
+    background-color: rgb(64, 32, 138);
+    color: white;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (max-width: 810px) and (max-height: 1170px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 400px 100px 600px 200px;
+        display: block;
+        padding: 10px;
+      }
+      .img-izbornik{
+        right: -610px;
+        top: 25px;
+    }
+      header{
+        background-color: rgb(64, 32, 138);
+        height: 100px;
+        width: 1540px;
+    }
+    .m1{
+        position: relative;
+        right: 55px;
+    }
+    footer{
+        width: 1440px;
+    }
+    #proba1:target{
+        display: block;
+        font-size: 35px;
+        position: relative;
+        top: 50px;
+        left: 700px;
+    }
+    .formaZaPretrazivanje{
+        left: 450px;
+    }
+    #luffy{
+        text-align: center;
+        position: relative;
+        left: 330px;
+    }
+    .luffy1{
+        width: 760px;
+        height: 500px;
+        position: relative;
+        top: 20px;
+        margin-right: 50px;
+    }
+    #ichigo{
+        text-align: center;
+        position: relative;
+        left: 330px;
+    }
+    .ichigo1{
+        text-align: center;
+        position: relative;
+        top: 50px;
+        width: 760px;
+        height: 400px;
+    }
+    
+    .videofuture{
+        width: 500px;
+        height: 500px;
+        grid-column: 1 / 1;
+    }
+    .videoscifi{
+        width: 500px;
+        height: 500px;
+        grid-column: 1 / 1;
+    }
+    .videosquare{
+        width: 500px;
+        height: 500px;
+        grid-column: 1 / 1;
+    }
+    #future{
+        grid-column: 1 / 1;
+        position: relative;
+        left: 7px;
+        color: black;
+        left: 310px;
+    }
+    #scifi{
+        grid-column: 1 / 1;
+        position: relative;
+        left: 7px;
+        bottom: 20px;
+        color: black;
+        left: 310px;
+    }
+    #square{
+        grid-column: 1 / 1;
+        position: relative;
+        left: 7px;
+        bottom: 40px;
+        color: black;
+        left: 310px;
+    }
+    #audio1{
+        grid-column: 1 / 1;
+        position: relative;
+        left: 330px;
+    }
+    #audio2{
+        grid-column: 1 / 1;
+        position: relative;
+        left: 330px;
+    }
+    #audio3{
+        grid-column: 1 / 1;
+        position: relative;
+        left: 330px;
+    }
+    #audio4{
+        grid-column: 1 / 1;
+        position: relative;
+        left: 330px;
+    }
+}
+
+@media only screen and (max-width: 450px) and (max-height: 860px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 400px 100px 600px 200px;
+        display: block;
+        padding: 10px;
+      }
+      .img-izbornik{
+        right: -830px;
+        top: 25px;
+    }
+    header{
+        width: 1400px;
+    }
+    footer{
+        width: 1310px;
+    }
+    #proba1:target{
+        display: block;
+        font-size: 30px;
+        position: relative;
+        left: 600px;
+        bottom: 1550px;
+    }
+    .formaZaPretrazivanje{
+        left: 390px;
+    }
+    .m1{
+        position: relative;
+        right: 50px;
+    }
+    #luffy{
+        text-align: center;
+        position: relative;
+        bottom: 60px;
+        left: 420px;
+    }
+    #l1{
+        position: relative;
+        left: 25px;
+    }
+    .luffy1{
+        width: 400px;
+        height: 400px;
+        position: relative;
+        left: 10px;
+    }
+    #ichigo{
+        text-align: center;
+        position: relative;
+        bottom: 200px;
+        left: 435px;
+    }
+    .ichigo1{
+        text-align: center;
+        position: relative;
+        top: 50px;
+        width: 400px;
+        height: 400px;
+    }
+    .future{
+        position: relative;
+        left: -15px;
+    }
+    .videofuture{
+        width: 300px;
+        height: 300px;
+        grid-column: 1 / 1;
+        position: relative;
+        left: -15px;
+    }
+    .scifi{
+        position: relative;
+        left: -15px;
+    }
+    .videoscifi{
+        width: 300px;
+        height: 300px;
+        grid-column: 1 / 1;
+        position: relative;
+        left: -15px;
+    }
+    .square{
+        position: relative;
+        left: -15px;
+    }
+    .videosquare{
+        width: 300px;
+        height: 300px;
+        grid-column: 1 / 1;
+        position: relative;
+        left: -15px;
+    }
+    #future{
+        grid-column: 1 / 1;
+        position: relative;
+        left: 440px;
+    }
+    #scifi{
+        grid-column: 1 / 1;
+        position: relative;
+        left: 440px;
+        bottom: 20px;
+    }
+    #square{
+        grid-column: 1 / 1;
+        position: relative;
+        left: 440px;
+        bottom: 40px;
+    }
+    #audio1{
+        grid-column: 1 / 1;
+        position: relative;
+        top: 0;
+        left: 440px;
+    }
+    #audio2{
+        grid-column: 1 / 1;
+        position: relative;
+        top: 0;
+        left: 440px;
+    }
+    #audio3{
+        grid-column: 1 / 1;
+        position: relative;
+        top: 0;
+        left: 440px;
+    }
+    #audio4{
+        grid-column: 1 / 1;
+        position: relative;
+        top: 0;
+        left: 440px;
+    }
+}

@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(64, 32, 138);
+    height: 70px;
+}
+h1{
+    padding-top: 8px;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+body{
+    background: url(../materijali/proba6.jpeg);
+    background-size: cover;
+}
+.img-logo{
+    height: 50px;
+    width: 70px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+#proba1{
+    display: none;
+}
+#proba1:target{
+    display: block;
+    font-size: 25px;
+    color:white;
+}
+li a {
+    color:white;
+}
+
+.img-izbornik{
+    height: 50px;
+    width: 55px;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+.izbornik{
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+.formaZaPrijavu{
+    position: relative;
+    top: 100px;
+    left: 1010px;
+    border: 2px solid black;
+    border-radius: 35px;
+    background-color: rgb(64, 32, 138);
+    color: white;
+    width: 450px;
+    height: 350px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.prijava{
+    margin-top: 5px;
+    padding: 15px;
+    width: 70%;
+    margin-left: 50px;
+    border-radius: 35px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(105, 18, 105);
+}
+
+.prijavljivanje{
+    position: relative;
+    margin-left: 80px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.formaZaPrijavu #korime{
+    width: 60%;
+}
+.formaZaPrijavu #loz{
+    width: 70.5%;
+}
+.formaZaPrijavu .zapamti{
+    font-size: 20px;
+}
+
+
+.formaZaPrijavu .zabloz{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.formaZaPrijavu input:hover{
+    background-color: rgb(234, 0, 255);
+}
+
+.formaZaZabLoz{
+    position: relative;
+    top: 50px;
+    right: 82px;
+    border: 2px solid black;
+    border-radius: 35px;
+    background-color: rgb(64, 32, 138);
+    color: white;
+    width: 500px;
+    height: 250px;
+    padding-left: 60px;
+    padding-top: 20px;
+    margin-top: 50px;
+    display: block;
+}
+
+.zaboravljenaLozinka{
+    margin-left: 110px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.novaLoz{
+    font-size: 20px;
+}
+.pKorime{
+    font-size: 20px;
+}
+
+
+.potvrdi{
+    margin-left: 160px;
+    width: 130px;
+    height: 50px;
+    border-radius: 35px;
+    background-color: rgb(105, 18, 105);
+    color: white;
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    position: absolute;
+    width: 99.2%;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgb(64, 32, 138);
+    color: white;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 810px) and (max-height: 1170px){
+    #proba1:target{
+        display: block;
+        font-size: 17px;
+        position: relative;
+        top: 0px;
+        left:7px;
+    }
+    header{
+        height: 70px;
+        width: 830px;
+    }
+    footer{
+        position: relative;
+        top: 380px;
+        width: 810px;
+    }
+    .img-izbornik{
+        left: 750px;
+    }
+    .formaZaPrijavu{
+        left: 150px;
+        margin-top: 50px;
+    }
+    .o1{
+        font-size: 35px;
+        position: relative;
+        top: 5px;
+        right: 5px;
+    }
+    .prijava{
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 450px) and (max-height: 860px){
+    #proba1:target{
+        display: block;
+        font-size: 16px;
+        position: relative;
+        left:60px;
+        bottom: 1550px;
+        top: 10px;
+    }
+    .formaZaPrijavu{
+        left: 60px;
+        width: 300px;
+        height: 300px;
+        padding-left: 60px;
+        padding-top: 20px;
+    }
+    .prijava{
+        width: 50%;
+    }
+    .prijavljivanje{
+        position: relative;
+        margin-left: 30px;
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+    header{
+        height: 70px;
+        width: 510px;
+    }
+    footer{
+        width: 485px;
+    }
+    .o1{
+        font-size: 30px;
+        position: relative;
+        top: 5px;
+        right: 5px;
+    }
+    .img-izbornik{
+        left: 450px;
+        height: 40px;
+        width: 30px;
+    }
+    .img-logo{
+        height: 40px;
+        width: 50px;
+    }
+}

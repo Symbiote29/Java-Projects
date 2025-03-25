@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dokumentacija</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="sadrzaj">
+            <h1>Dokumentacija</h1>
+            <h2>Opis projektnog zadatka</h2>
+            <br><br>
+            <p>Za projektni zadatak iz kolegija Web dizajn i programiranje trebali izraditi web stranicu, te je tema moje grupe bila "Pivnica". Mi smo 
+                u ovom projektu trebali napraviti web stranicu koja omogucava kreiranje piva, pivnica i drugih stvari te pregled tih podataka kao i
+                neke statisticke podatke. Stranica ima mogucnost prijave, registracije, te je vecina funkcionalnosti skrivena od neregistriranih korisnika.
+                Od uloga imamo neregistriranog korisnika, registriranog korisnika, moderatora i administratora.
+            </p>
+            <p>Neregistrirani korisnik moze vidjeti pocetnu index stranicu, stranicu prijave i stranicu registracije. Na pocetnoj stranici
+                neregistrirani korisnik ce moci galeriju slika piva u odabranoj pivnici uz mogucnost sortiranja po zemlji podrijekla ili cijeni, 
+                te moze filtrirati po cijeni. Korisnik ce takoder moci vidjeti rang listu broja narucenih piva u odredenom vremenskom periodu.
+                Registrirani korisnik moze pregledavati i kreirati narudzbe, kao i placati ih djelomicno ili u potpunosti. Takoder moze vidjeti popis piva
+                koje je narucio te im dati ocjenu, te moze vidjeti vlastitu statistiku broja narucenih piva. Moderator ce pomoci pregledavati kreirati i
+                azurirati pive i popis piva kao i vidjeti statistiku narucenih piva grupiranih po zemlji podrijetla. Administrator moze pregledavati, kreirati
+                i azurirati pivnice i zemlje podrijetla kao i blokirati korisnike i vidjeti statistiku rada sustava.
+            </p>
+
+            <br><br>
+            <h2>ERA model</h2>
+            <a href="../WebDiP2021x001/materijali/ERAmodel.png">
+                <img class="eraSlika" title="ERA model" src="../WebDiP2021x001/materijali/eraModel2.png" width="800" height="800">
+            </a>
+            <br><br>
+            <h2>Popis i opis skripata</h2>
+            <br><br>
+            <ul>
+                <li><b>emailaktivacija.php</b> - aktivacija emaila nakon registracije</li>
+                <li><b>prijava.php</b> - Stranica preko koje se korisnik prijavljuje i time se odreduje njegova uloga te sadrzi ajax provjeru inputa</li>
+                <li><b>odjava.php</b> - sluzi za odjavu korisnika</li>
+                <li><b>registracija.php</b> - sluzi za registraciju korisnike te sadrzi ajax provjeru inputa</li>
+                <li><b>era.php</b> - era dijagram programskog rjesenja</li>
+                <li><b>index.php</b> - pocetna stranica na kojoj se nalaze slike piva koje se mogu sortirati po drzavi i ocjenu</li>
+                <li><b>kosarica.php</b> - sluzi za prikaz stavki koje je korisnik narucio</li>
+                <li><b>narudzba.php</b> - sluzi kako bi korisnik mogao naruciti neke od mogucih piva</li>
+                <li><b>navigacijski.php</b> - navigacijski dijagram programskog rjesenja</li>
+                <li><b>o_autoru.html</b> - osnovne informacije o autoru stranice</li>
+                <li><b>pive.php</b> - popis piva, te se unutar nje one mogu dodavati, pregledavati i azurirati</li>
+                <li><b>pivnice.php</b> - popis pivnica, te se unutar nje one mogu dodavati, pregledavati i azurirati</li>
+                <li><b>popispiva.php</b> - popis piva te u kojim pivnicama se nalaze, te koji moderator njima upravlja</li>
+                <li><b>povijestNarudzbi.php</b> - povijest narudzbi korisnika</li>
+                <li><b>ranglista.php</b> - rang lista broja narucenih piva u odredenom vremenskom periodu, te takoder filtriranje po cijeni pive</li>
+                <li><b>sesija.class.php</b> - sluzi za kreiranje sesije te spremanje varijabli u superglobalnu varijablu kojoj sam mogao pristupiti na drugim stranicama</li>
+                <li><b>baza.class.php</b> - sluzi za povezivanje na bazu i izvodenje upita</li>
+                <li><b>statistikaM.php</b> - prikazuje statistiku narucenih piva grupiranih po zemlji podrijetla</li>
+                <li><b>statistikaR.php</b> - prikazuje statistiku broja narucenih piva za odredenog korisnika</li>
+                <li><b>statistikaRadaSustava.php</b> - prikazuje broj novo dodanih korisnika u odredenom vremenskom periodu</li>
+                <li><b>sveNarudzbeKorisnika.php</b> - prikazuje sve narudzbe korisnika i tip placanja, te ima mogucnost blokiranja i odblokiranja odredenih korisnika</li>
+                <li><b>zemljePodrijetla.php</b> - prikazuje listu zemalja podrijetla, koje mozemo pregledavati ali i dodavati ih te azurirati</li>
+            </ul>
+            <br><br>
+            <h2>Popis i opis koristenih tehnologija i alata</h2>
+            <br><br>
+            <ul>
+                <li><b>Javascript</b> - provjera klijenta</li>
+                <li><b>Jquery</b> - ajax pozivi kod registracije, prijave i drugih stranica, provjera korisnickog imena i drugih inputa</li>
+                <li><b>PHP</b> - spajanje na bazu i dohvacanje podataka iz nje te provjera zahtjeva GET i POST metodama</li>
+                <li><b>Visual studio code</b> - programski alat za pisanje koda u kojem sam napravio ovaj projekt</li>
+                <li><b>Xampp (apache)</b> - web server pomocu kojeg sam preko windowsa testirao moje programsko rjesenje </li>
+                <li><b>Filezilla</b> - alat za prenosenje datoteka na fakultetski server </li>
+                <li><b>MySQL Workbench</b> - kreirana baza i ERA model</li>
+                <li><b>PHPmyadmin</b> - uredivanje baze, tablica i entiteta </li>
+            </ul>
+            <br><br>
+            <h2>Popis i opis vanjskih biblioteka</h2><br><br>
+            <ul>
+                <li><b>Google reCAPTCHA</b> - zastita od automata</li>
+                <li><b>Jquery</b> - za ajax upite</li>
+            </ul>
+        </div>
+    </body>
+</html>

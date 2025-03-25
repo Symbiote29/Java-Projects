@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(64, 32, 138);
+    height: 70px;
+}
+h1{
+    padding-top: 8px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 40px;
+}
+.o1{
+    padding-top: 8px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 120px;
+}
+body{
+    background: url(../materijali/proba6.jpeg);
+    background-size: cover;
+}
+.img-logo{
+    height: 50px;
+    width: 70px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+#proba1{
+    display: none;
+}
+#proba1:target{
+    display: block;
+    font-size: 25px;
+    color:white;
+}
+li a {
+    color:white;
+}
+
+.img-izbornik{
+    height: 50px;
+    width: 55px;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+.izbornik{
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+.formaZaPrijavu{
+    position: relative;
+    top: 100px;
+    left: 900px;
+    border: 2px solid black;
+    border-radius: 35px;
+    background-color: rgb(64, 32, 138);
+    color: white;
+    width: 700px;
+    height: 1450px;
+    padding-left: 60px;
+    padding-top: 20px;
+    display: inline-block;
+}
+.formaZaPlacanje{
+    position: relative;
+    top: 100px;
+    left: 900px;
+    border: 2px solid black;
+    border-radius: 35px;
+    background-color: rgb(64, 32, 138);
+    color: white;
+    width: 700px;
+    height: 1450px;
+    padding-left: 60px;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+.prijava{
+    margin-top: 5px;
+    padding: 15px;
+    width: 70%;
+    margin-left: 50px;
+    border-radius: 35px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(105, 18, 105);
+}
+
+.backToOrder{
+    position: relative;
+    width: 80px;
+    height: 40px;
+    margin-left: 70px;
+    bottom: 80px;
+}
+.pay{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    margin-top: -80px;
+    margin-left: 530px;
+}
+
+.narudzba{
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.nacinPlacanja{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+#c{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#nacinPlacanja{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.paymentType{
+    position: absolute;
+    margin-left: 750px;
+    top: 0px;
+    border: 2px solid black;
+    border-radius: 35px;
+    background-color: rgb(64, 32, 138);
+    color: white;
+    width: 200px;
+    height: 200px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 20px;
+    text-align: center;
+    display: none;
+}
+.payButton{
+    font-size: 17px;
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+}
+
+footer{
+    display: flex;
+    position: absolute;
+    width: 99.2%;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgb(64, 32, 138);
+    color: white;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 810px) and (max-height: 1170px){
+    #proba1:target{
+        display: block;
+        font-size: 17px;
+        position: relative;
+        top: 0px;
+        left:7px;
+    }
+    header{
+        height: 70px;
+        width: 830px;
+    }
+    footer{
+        position: relative;
+        top: 380px;
+        width: 810px;
+    }
+    .img-izbornik{
+        left: 750px;
+    }
+    .formaZaPrijavu{
+        left: 150px;
+        margin-top: 50px;
+    }
+    .o1{
+        font-size: 35px;
+        position: relative;
+        top: 5px;
+        right: 5px;
+    }
+    .prijava{
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 450px) and (max-height: 860px){
+    #proba1:target{
+        display: block;
+        font-size: 16px;
+        position: relative;
+        left:60px;
+        bottom: 1550px;
+        top: 10px;
+    }
+    .formaZaPrijavu{
+        left: 60px;
+        width: 300px;
+        height: 300px;
+        padding-left: 60px;
+        padding-top: 20px;
+    }
+    .prijava{
+        width: 50%;
+    }
+    .prijavljivanje{
+        position: relative;
+        margin-left: 30px;
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+    header{
+        height: 70px;
+        width: 510px;
+    }
+    footer{
+        width: 485px;
+    }
+    .o1{
+        font-size: 30px;
+        position: relative;
+        top: 5px;
+        right: 5px;
+    }
+    .img-izbornik{
+        left: 450px;
+        height: 40px;
+        width: 30px;
+    }
+    .img-logo{
+        height: 40px;
+        width: 50px;
+    }
+}
