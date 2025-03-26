@@ -1,0 +1,17 @@
+#PAYARA FULL
+
+export JAVA_HOME=/usr/lib/jvm/jdk-17.0.2
+export PATH=/usr/lib/jvm/jdk-17.0.2/bin:$PATH
+
+cd /opt/payara-full-6.2023.4/glassfish/bin
+./asadmin start-domain
+
+./asadmin stop-domain
+
+tail -f /opt/payara-full-6.2023.4/glassfish/domains/domain1/logs/server.log
+
+#BAZA
+cd /opt/hsqldb-2.7.1/hsqldb/data
+
+sudo java -classpath ../lib/hsqldb.jar org.hsqldb.server.Server \
+--database.0 file:nwtis_3 --dbname.0 nwtis_3 --port 9001

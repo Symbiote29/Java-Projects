@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="OpenSkyNetwork.korisnik">Symbiote</entry>
+<entry key="OpenSkyNetwork.lozinka">symbiote12345</entry>
+<entry key="preuzimanje.od">01.08.2023</entry>
+<entry key="preuzimanje.do">15.08.2023</entry>
+<entry key="ciklus.trajanje">100</entry>
+</properties>
